@@ -19,13 +19,14 @@
 #define LCD_RENEW 300           // тайминг обновления экрана
 #define LED_RENEW 300           // тайминг обновления экрана
 #define BTN_PROTECT 100         // защита дребезга кнопки 
+#define MODE_CNT 5              // количество режимов работы
 
 byte R_BRIGHT, G_BRIGHT, B_BRIGHT;
 byte R_MNL, G_MNL, B_MNL;
 byte R_BtnVal, G_BtnVal, B_BtnVal, mode_BtnVal, mode;
 int LEDcolor, k, steps = 0;
 long now_millis, lcd_millis, led_millis, r_millis, g_millis, b_millis, mode_millis;
-String modes[5] = {"MANUALRGB","ALARM    ","STROBE   ","RAINBOW  ","RANDOM   "}; // массив названий режимов  9 символов
+String modes[MODE_CNT] = {"MANUALRGB","ALARM    ","STROBE   ","RAINBOW  ","RANDOM   "}; // массив названий режимов  9 символов
 
 boolean red_or_blue = false, lamp_on = false;
 int alarm_int[4]={150, 300, 450, 800};  // тайминг мигалки
@@ -91,7 +92,7 @@ void loop()
     b_millis = now_millis + 300;
   }
   if ((mode_BtnVal == LOW) & (now_millis - mode_millis)> BTN_PROTECT) { 
-    mode = (mode + 1) % 5;
+    mode = (mode + 1) % MODE_CNT;
     awhiteoff();
     lamp_on = false;
     steps = 0;
