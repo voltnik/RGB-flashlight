@@ -24,13 +24,13 @@
 ## Папки
 - **libraries** - библиотеки для работы с проектом
 - **RBGflashlight** - прошивка для Arduino
-- **shablon** - шаблоны в .pdf формате для разметки заглушек
+- **shablon** - шаблоны в .pdf формате для разметки заглушек 110мм
 
 <a id="chapter-2"></a>
 ## Упрощенная схема подключения
 ![СХЕМА1](https://github.com/voltNik/RGB-flashlight/blob/master/RGB-flashlight_bb1.jpg)
 ## Полная схема подключения
-![СХЕМА2](https://github.com/voltNik/RGB-flashlight/blob/master/RGB-flashlight_bb1.jpg)
+![СХЕМА2](https://github.com/voltNik/RGB-flashlight/blob/master/RGB-flashlight_full_bb2.jpg.jpg)
 
 <a id="chapter-3"></a>
 ## Материалы и компоненты
