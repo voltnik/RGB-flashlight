@@ -56,12 +56,14 @@
 - Термо клей: http://ali.pub/28sol2
 - Термоскотч: http://ali.pub/28smps
 - Термовыключатель: http://ali.pub/28sowj 
+- Микро стабилизатор для питания Ардуино UBEC: http://ali.pub/28sv4x
 - Выключатель с фиксацией: http://ali.pub/28sn7v
 - Кнопки 25шт: http://ali.pub/28sn4y резерв: http://ali.pub/235230
 - Потенциометр 10кОм 5шт: http://ali.pub/28smiz
 - Колпачки для потенциометра: http://ali.pub/28smlp
 - Набор резисторов 600шт: http://ali.pub/28smng 
 - Вольтметр до 40В: http://ali.pub/28smi0
+- Микро стабилизатор для питания Ардуино UBEC: http://ali.pub/28sv4x
 - Аккумулятор 4S 16 вольта емкостью 1800мач: https://goo.gl/JGbB8D
 - Зарядка для аккумулятора IMAX B6: http://ali.pub/28su2t
 
