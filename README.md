@@ -1,4 +1,5 @@
 [![voltNik YouTube](http://voltnik.ru/voltnik-banner.jpg)](https://www.youtube.com/channel/UC4s13gPVOMQVX3P1ZpdUwjA?sub_confirmation=1)
+(https://github.com/voltNik/RGB-flashlight/blob/master/rgb-750.jpg)
 # Мощный RGB фонарь на Arduino
 * [Описание проекта](#chapter-0)
 * [Папки проекта](#chapter-1)
